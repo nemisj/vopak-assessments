@@ -1,0 +1,17 @@
+service: serverless-vopak-endpoint
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  currenttempincovilha:
+    handler: handler.main
+    events:
+      - http: GET currenttempincovilha
+  avgtempinsfax:
+    handler: handler.main
+    events:
+      - http: GET avgtempinsfax

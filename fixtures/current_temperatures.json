@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5e947204b77ca464b8e205c5"},"observation_time":{"$date":"2020-04-13T14:07:00.173Z"},"temperature":12,"location":{"$oid":"5e9468658d1b69a448559481"},"__v":0}
+{"_id":{"$oid":"5e947276fb4ef26eb4dcad1a"},"observation_time":{"$date":"2020-04-11T22:00:00Z"},"temperature":12,"location":{"$oid":"5e9468658d1b69a448559481"},"__v":0}
+{"_id":{"$oid":"5e947348d688457f8894ed28"},"observation_time":{"$date":"2020-04-13T14:12:24.54Z"},"temperature":17,"location":{"$oid":"5e9468658d1b69a448559481"},"__v":0}
+{"_id":{"$oid":"5e94749437a9b198aa00adec"},"observation_time":{"$date":"2020-04-13T14:17:56.372Z"},"temperature":20,"location":{"$oid":"5e9468658d1b69a448559480"},"__v":0}

@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '12.16'
+
+jobs:
+  include:
+    - stage: 'Test'
+      script: yarn test
+    - stage: 'Deploy'
+      env: NODE_ENV=production
+      script: yarn deploy
